@@ -23,7 +23,7 @@ h1,h2,h3{
     font-family: 'Open Sans', sans-serif;
 }
 
-body, .navbar{
+.navbar, .home-callout{
   //two ways to add background colors to our site first just go to css gradient site and copy the color css
   // and paste it to ur css files
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#207cca+5,1e5799+48,1e5799+48,7db9e8+100 */
@@ -39,6 +39,13 @@ body, .navbar{
   background: #000046;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.home-callout{
+  color: white;
+  margin-top: -20px;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
 .navbar{
   border:none;
