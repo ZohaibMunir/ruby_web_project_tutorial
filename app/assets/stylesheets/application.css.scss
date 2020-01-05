@@ -22,3 +22,24 @@
 h1,h2,h3{
     font-family: 'Open Sans', sans-serif;
 }
+
+body, .navbar{
+  //two ways to add background colors to our site first just go to css gradient site and copy the color css
+  // and paste it to ur css files
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#207cca+5,1e5799+48,1e5799+48,7db9e8+100 */
+  //background: #207cca; /* Old browsers */
+  //background: -moz-linear-gradient(left,  #207cca 5%, #1e5799 48%, #1e5799 48%, #7db9e8 100%); /* FF3.6-15 */
+  //background: -webkit-linear-gradient(left,  #207cca 5%,#1e5799 48%,#1e5799 48%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+  //background: linear-gradient(to right,  #207cca 5%,#1e5799 48%,#1e5799 48%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  //filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#207cca', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 */
+
+  //to add from just go to uigradient.com and choose the background color and copy the css code
+  //just paste it to the css file
+  //gradient provided by @_ighosh at uigradient.com
+  background: #000046;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.navbar{
+  border:none;
+}
