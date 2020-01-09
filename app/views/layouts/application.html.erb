@@ -67,12 +67,23 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a href="/" class="navbar-brand"><i class="fa fa-group"></i> DevMatch</a>
+          <!-- we have trans form that link to ruby link
+          <a href="/" class="navbar-brand">
+            we can any icon as we added in now according to our use
+            <i class="fa fa-group"></i>
+            <i class="fa fa-hand-pointer-o"></i>
+             DevMatch
+          </a>-->
+          <%= link_to "/",class: "navbar-brand" do %>
+            <i class="fa fa-group"></i>
+            DevMatch
+          <% end %>
         </div>
         <div class="collapse navbar-collapse" id="main-nav-collapse">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="/about">About</a></li>
-            <li><a href="/about">About</a></li>
+            <!--<li><%= link_to "Fuck u","www.google.com" %></li>-->
+            <li><%= link_to "About", "/about" %></li>
           </ul>
         </div> <!--/.navbar-collapse-->
       </div>
