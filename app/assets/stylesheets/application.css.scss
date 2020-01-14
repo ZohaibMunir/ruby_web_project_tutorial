@@ -55,6 +55,20 @@ h1,h2,h3{
     opacity: 0.75;
   }
 }
+
+
+.navbar-default .navbar-toggle .icon-bar{
+  background-color: white;
+}
+.navbar-default .navbar-toggle{
+  border: 2px solid white;
+  &:hover,&:focus{
+    background-color: cornflowerblue;
+  }
+}
+/*.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+  background-color: cornflowerblue;
+}*/
 .navbar-brand{
   font-family: 'Open Sans', sans-serif;
   font-weight: 800;
